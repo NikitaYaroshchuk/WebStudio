@@ -3,4 +3,14 @@
     --add-color: #757575;
     --accent-color: #2196F3;
     --bg-color: #2F303A;
+    --main-background-color: #ffffff;
+    --header-color: #333333;
+    --link-color: #007bff;
+}
+body {
+    background-color: var(--main-background-color);
+    color: var(--header-color);
+}
+a {
+    color: var(--link-color);
 }
