@@ -10,6 +10,7 @@
 body {
     background-color: var(--main-background-color);
     color: var(--header-color);
+    font-family: 'Roboto';
 }
 a {
     color: var(--link-color);
