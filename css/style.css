@@ -15,3 +15,9 @@ body {
 a {
     color: var(--link-color);
 }
+.container {
+    width: 1200px;
+    height: 600px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
