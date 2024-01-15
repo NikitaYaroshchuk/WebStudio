@@ -8,12 +8,25 @@
     --link-color: #007bff;
 }
 body {
+    margin: 0;
+    padding: 0;
     background-color: var(--main-background-color);
     color: var(--header-color);
     font-family: 'Roboto';
 }
+.studio-container {
+    display: flex;
+    flex-direction: column;
+}
 a {
     color: var(--link-color);
+}
+.header,main,footer {
+    padding: 20px;
+    border: 1px solid;
+}
+.main {
+    flex: 1;
 }
 .container {
     width: 1200px;
