@@ -1,0 +1,27 @@
+:root {
+    --main-color: #212121;
+    --add-color: #757575;
+    --accent-color: #2196F3;
+    --bg-color: #2F303A;
+    --main-background-color: #ffffff;
+    --header-color: #333333;
+    --link-color: #007bff;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--main-background-color);
+    color: var(--header-color);
+    font-family: 'Roboto';
+}
+.portfolio-container {
+    display: flex;
+    flex-direction: column;
+}
+.header,main,footer {
+    padding: 20px;
+    border: 1px solid;
+}
+.main {
+    flex: 1;
+}
