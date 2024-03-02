@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio</title>
-    <link rel="stylesheet" href="css/style.css " />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
@@ -18,17 +17,17 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="css/style.css " />
   </head>
   <body>
-    <div class="studio-container">
       <header class="header">
-        <div class="header-box">
+        <div class="counteiner">
           <a href="/" class="box-link"><span>Web</span><span>Studio</span></a>
           <nav class="header-navigation">
             <ul class="navigation-list">
-              <li class="list-item">Студія</li>
-              <li class="list-item">Портфоліо</li>
-              <li class="list-item">Контакти</li>
+              <li class="list-item"><a href="/">Студія</a></li>
+              <li class="list-item"><a href="/">Портфоліо</a></li>
+              <li class="list-item"><a href="/">Контакти</a></li>
             </ul>
           </nav>
           <ul class="contacts">
@@ -38,7 +37,7 @@
               >
             </li>
             <li class="contacts-list">
-              <a href="info@devstudio.com" target="_blank" class="link-email"
+              <a href="mailtoo:info@devstudio.com" target="_blank" class="link-email"
                 >info@devstudio.com</a
               >
             </li>
@@ -47,11 +46,14 @@
       </header>
       <main class="main">
         <section class="hero">
-          <h1 class="hero-title">Ефіктивні рішення для вашого бізнесу</h1>
+          <div class="counteiner">
+            <h1 class="hero-title">Ефіктивні рішення для вашого бізнесу</h1>
           <button type="button" class="hero-button">Замовити послугу</button>
+          </div>
         </section>
         <section class="info">
-          <ul class="info-list">
+          <div class="counteiner">
+            <ul class="info-list">
             <li class="list">
               <h3>УВАГА ДО ДЕТАЛЕЙ</h3>
               <p class="main-word">
@@ -80,9 +82,11 @@
               </p>
             </li>
           </ul>
+        </div>
         </section>
         <section class="work">
-          <h2>Чим ми займаємося</h2>
+          <div class="counteiner">
+            <h2>Чим ми займаємося</h2>
           <ul class="work-imges">
             <li class="images">
               <img src="images/work_img1.jpg" alt="розробка" />
@@ -94,9 +98,11 @@
               <img src="images/work_img3.jpg" alt="розробка" />
             </li>
           </ul>
+          </div>
         </section>
         <section class="our-team">
-          <h2>Наша команда</h2>
+          <div class="counteiner">
+            <h2>Наша команда</h2>
           <ul class="our-team-list">
             <li class="list">
               <img
@@ -135,22 +141,24 @@
               <p class="works">Ul Designer</p>
             </li>
           </ul>
+          </div>
         </section>
       </main>
       <footer class="footer">
-        <p class="name-production">WebStudio</p>
+        <div class="counteiner">
+          <a href="/" class="name-production"><span>Web</span><span>Studio</span></a>
         <a
           href="https://www.google.com/maps/d/viewer?mid=10uSM3H-mIU3GznYo2szRIEphczw&ll=50.42732700000001%2C30.538092&z=17"
           class="link-street"
           >м.Київ, пр-т Лесі Українки, 26</a
         >
-        <a href="info@devstudio.com" target="_blank" class="link-number"
+        <a href="mailto:info@devstudio.com" target="_blank" class="link-number"
           >info@devstudio.com</a
         >
         <a href="tel:+360961111111" target="_blank" class="link-email"
           >+38096 111 11 11</a
         >
+        </div>
       </footer>
-    </div>
   </body>
 </html>
