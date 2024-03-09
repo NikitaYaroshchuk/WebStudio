@@ -44,14 +44,159 @@ a {
     overflow: hidden;
 }
 body {
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     font-family: 'Roboto';
     font-size: 14px;
-    font-weight: 400px;
+    font-weight: 400;
+    max-width: 1600px;
 }
-.container {
+.counteiner {
     width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
+}
+/* хедер */
+.header {
+    padding-bottom: 25px;
+    padding-top: 24px;
+
+}
+.header-position {
+    display: flex;
+    align-items: center;
+}
+.box-link {
+    font-family: var(--second-family);
+        font-weight: 700;
+        font-size: 26px;
+        letter-spacing: 0.03em;
+        color: #2196f3;
+}
+.logo-web {
+    color: var(--accent-color)
+}
+.logo-studio {
+    color: black;
+}
+.header-navigation {
+
+}
+.navigation-list {
+display: flex;
+margin-left: 93px;
+column-gap: 50px;
+}
+.item-link {
+    font-family: var(--font-family);
+        font-weight: 500;
+        letter-spacing: 0.02em;
+        color: #212121;
+}
+.contacts {
+display: flex;
+margin-left: auto;
+column-gap: 50px;
+}
+.contacts-link {
+    font-family: var(--font-family);
+        font-weight: 500;
+        letter-spacing: 0.02em;
+        color: #757575;
+}
+.contacts-link:hover,
+.item-link:hover {
+    color: var(--accent-color);
+}
+/* мейн */
+.hero {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-color: #2F303A;
+}
+.hero-title {
+    text-transform: uppercase;
+    width: 696px;
+    margin: 0 auto;
+    font-family: var(--font-family);
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.36;
+        letter-spacing: 0.06em;
+        text-align: center;
+        color: #fff;
+}
+.hero-button {
+    display: block;
+        margin-top: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        border: none;
+        background-color: var(--accent-color);
+        padding: 10px 32px;
+    font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.87;
+        letter-spacing: 0.06em;
+        text-align: center;
+        color: #fff;
+}
+.info {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.info-list {
+    display: flex;
+    column-gap: 30px;
+}
+.list {
+
+}
+.main-word {
+    font-family: var(--font-family);
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        color: #757575;
+}
+.work {
+    padding-bottom: 94px;
+}
+.work-title {
+    font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 36px;
+        letter-spacing: 0.03em;
+        text-align: center;
+        color: #212121;
+}
+.work-list {
+    display: flex;
+    column-gap: 30px;
+}
+.list-images {
+
+}
+.our-team {
+    padding-top: 186px;
+    padding-bottom: 94px;
+}
+.our-team-list {
+    
+}
+.list-workers {
+
+}
+.works {
+    font-family: var(--font-family);
+        font-size: 16px;
+        letter-spacing: 0.03em;
+        color: #757575;
+}
+/* футер */
+.link-street {
+    font-family: var(--font-family);
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        color: #fff;
 }

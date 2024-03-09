@@ -20,42 +20,53 @@
     <link rel="stylesheet" href="css/style.css " />
   </head>
   <body>
-      <header class="header">
-        <div class="counteiner">
-          <a href="/" class="box-link"><span>Web</span><span>Studio</span></a>
-          <nav class="header-navigation">
-            <ul class="navigation-list">
-              <li class="list-item"><a href="/">Студія</a></li>
-              <li class="list-item"><a href="/">Портфоліо</a></li>
-              <li class="list-item"><a href="/">Контакти</a></li>
-            </ul>
-          </nav>
-          <ul class="contacts">
-            <li class="contacts-list">
-              <a href="tel:+360961111111" target="_blank" class="link-number"
-                >+38096 111 11 11</a
-              >
+    <header class="header">
+      <div class="counteiner header-position">
+        <a href="/" class="box-link"
+          ><span class="logo-web">Web</span
+          ><span class="logo-studio">Studio</span></a
+        >
+        <nav class="header-navigation">
+          <ul class="navigation-list">
+            <li class="list-item">
+              <a href="/" class="item-link">Студія</a></li>
+            <li class="list-item">
+              <a href="/" class="item-link">Портфоліо</a>
             </li>
-            <li class="contacts-list">
-              <a href="mailtoo:info@devstudio.com" target="_blank" class="link-email"
-                >info@devstudio.com</a
-              >
+            <li class="list-item">
+              <a href="/" class="item-link">Контакти</a>
             </li>
           </ul>
-        </div>
-      </header>
-      <main class="main">
-        <section class="hero">
-          <div class="counteiner">
-            <h1 class="hero-title">Ефіктивні рішення для вашого бізнесу</h1>
+        </nav>
+        <ul class="contacts">
+          <li class="contacts-item">
+            <a
+              href="mailtoo:info@devstudio.com"
+              target="_blank"
+              class="contacts-link"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li class="contacts-item">
+            <a href="tel:+360961111111" target="_blank" class="contacts-link"
+              >+38096 111 11 11</a
+            >
+          </li>
+        </ul>
+      </div>
+    </header>
+    <main class="main">
+      <section class="hero">
+        <div class="counteiner">
+          <h1 class="hero-title">Ефіктивні рішення для вашого бізнесу</h1>
           <button type="button" class="hero-button">Замовити послугу</button>
-          </div>
-        </section>
-        <section class="info">
-          <div class="counteiner">
-            <ul class="info-list">
+        </div>
+      </section>
+      <section class="info">
+        <div class="counteiner">
+          <ul class="info-list">
             <li class="list">
-              <h3>УВАГА ДО ДЕТАЛЕЙ</h3>
+              <h3 class="info-t">УВАГА ДО ДЕТАЛЕЙ</h3>
               <p class="main-word">
                 Ідейні міркування, і навіть початок повсякденної роботи з
                 формування позиції.
@@ -83,28 +94,28 @@
             </li>
           </ul>
         </div>
-        </section>
-        <section class="work">
-          <div class="counteiner">
-            <h2>Чим ми займаємося</h2>
-          <ul class="work-imges">
-            <li class="images">
+      </section>
+      <section class="work">
+        <div class="counteiner">
+          <h2 class="work-title">Чим ми займаємося</h2>
+          <ul class="work-list">
+            <li class="list-images">
               <img src="images/work_img1.jpg" alt="розробка" />
             </li>
-            <li class="images">
+            <li class="list-images">
               <img src="images/work_img2.jpg" alt="розробка" />
             </li>
-            <li class="images">
+            <li class="list-images">
               <img src="images/work_img3.jpg" alt="розробка" />
             </li>
           </ul>
-          </div>
-        </section>
-        <section class="our-team">
-          <div class="counteiner">
-            <h2>Наша команда</h2>
+        </div>
+      </section>
+      <section class="our-team">
+        <div class="counteiner">
+          <h2 class="our-team-title">Наша команда</h2>
           <ul class="our-team-list">
-            <li class="list">
+            <li class="list-workers">
               <img
                 src="images/Workers_img1.jpg"
                 alt="Ігор Дем'яненко"
@@ -113,7 +124,7 @@
               <h3>Ігор Дем'яненко</h3>
               <p class="works">Product Designer</p>
             </li>
-            <li class="list">
+            <li class="list-workers">
               <img
                 src="images/Workers_img2.jpg"
                 alt="Ольга Рєпіна"
@@ -122,7 +133,7 @@
               <h3>Ольга Рєпіна</h3>
               <p class="works">Frontend Developer</p>
             </li>
-            <li class="list">
+            <li class="list-workers">
               <img
                 src="images/Workers_img3.jpg"
                 alt="Микола Тарасов"
@@ -131,7 +142,7 @@
               <h3>Микола Тарасов</h3>
               <p class="works">Marketing</p>
             </li>
-            <li class="list">
+            <li class="list-workers">
               <img
                 src="images/Workers_img4.jpg"
                 alt="Михайло Єрмак"
@@ -141,12 +152,15 @@
               <p class="works">Ul Designer</p>
             </li>
           </ul>
-          </div>
-        </section>
-      </main>
-      <footer class="footer">
-        <div class="counteiner">
-          <a href="/" class="name-production"><span>Web</span><span>Studio</span></a>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="counteiner">
+        <a href="/" class="name-production"
+          ><span class="logo-web">Web</span
+          ><span class="logo-studio">Studio</span></a
+        >
         <a
           href="https://www.google.com/maps/d/viewer?mid=10uSM3H-mIU3GznYo2szRIEphczw&ll=50.42732700000001%2C30.538092&z=17"
           class="link-street"
@@ -158,7 +172,7 @@
         <a href="tel:+360961111111" target="_blank" class="link-email"
           >+38096 111 11 11</a
         >
-        </div>
-      </footer>
+      </div>
+    </footer>
   </body>
 </html>
